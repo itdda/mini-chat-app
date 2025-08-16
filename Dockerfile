@@ -8,7 +8,7 @@ RUN mvn clean package -DskipTests
 # 2단계: JDK만 있는 이미지로 복사
 FROM eclipse-temurin:17-jdk-alpine
 WORKDIR /app
-COPY --from=build /app/target/backend.jar backend.jar
+COPY --from=build /app/target/mini-chat-backend-0.0.1-SNAPSHOT.jar backend.jar
 ENV PORT 8080
 EXPOSE $PORT
 ENTRYPOINT ["java", "-jar", "backend.jar"]
