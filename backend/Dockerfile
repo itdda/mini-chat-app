@@ -1,8 +1,8 @@
 # 1단계: Maven 빌드
 FROM maven:3.9.2-eclipse-temurin-17 AS build
 WORKDIR /app
-COPY pom.xml .
-COPY src ./src
+COPY backend/pom.xml pom.xml
+COPY backend/src ./src
 RUN mvn clean package -DskipTests
 
 # 2단계: JDK만 있는 이미지로 복사
