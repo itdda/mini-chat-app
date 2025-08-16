@@ -1,2 +1,2 @@
 # mini-chat-app
-미니 채팅 앱 test
+미니 채팅 앱
