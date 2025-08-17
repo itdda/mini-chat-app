@@ -1,0 +1,70 @@
+/* MiniChatRoom.css */
+.chat-container {
+  width: 400px;
+  max-width: 90%;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.chat-box {
+  height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.chat-message {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 20px;
+  max-width: 70%;
+  word-break: break-word;
+}
+
+.my-message {
+  background-color: #4caf50;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.other-message {
+  background-color: #e0e0e0;
+  color: black;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.chat-input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.chat-input-area button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.chat-input-area button:hover {
+  background-color: #45a049;
+}
