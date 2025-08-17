@@ -34,13 +34,6 @@
 
 ---
 
-<h3 align="center">📸 스크린샷</h3>
-<p align="center">
-<img src="링크_또는_이미지_경로" alt="채팅 화면" style="max-width:700px; border-radius:12px;"/>
-</p>
-
----
-
 <h3 align="center">📚 학습 포인트</h3>
 <p align="center" style="background-color:#e6ffe6; padding:15px; border-radius:12px; max-width:700px; margin:auto;">
 - React에서 WebSocket을 활용한 상태 관리 경험 <br/>
