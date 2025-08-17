@@ -9,7 +9,7 @@ function App() {
   const [showChat, setShowChat] = useState(false);
 
   useEffect(() => {
-      fetch(`${process.env.REACT_APP_API_URL}/hello`) // 서버 주소, 로컬에서는 보통 http://localhost:8080/hello
+      fetch('https://yoonjin.onrender.com/hello') // 서버 주소, 로컬에서는 보통 http://localhost:8080/hello
         .then((res) => res.text()) // 문자열 받기
         .then((data) => setMessage(data))
         .catch((err) => console.error(err));
