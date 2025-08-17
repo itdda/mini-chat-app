@@ -10,6 +10,6 @@ public class ChatController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, MiniChat! test";
+        return "Hello, MiniChat!";
     }
 }
