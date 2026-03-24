@@ -15,6 +15,9 @@
   <a href="https://yoonjin.onrender.com/" target="_blank" style="text-decoration:none; color:#1E90FF; font-weight:600; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
     배포사이트 ➤ Click Me!
   </a>
+    <a href="https://yoonjin-front.onrender.com/" target="_blank" style="text-decoration:none; color:#1E90FF; font-weight:600; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    미니채팅룸 ➤ Click Me!
+  </a>
 </p>
 
 </p>
