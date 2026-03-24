@@ -12,9 +12,6 @@
 🔗 <b>프론트-백 통신</b> - React ↔ Spring Boot REST API 및 WebSocket 연동 <br/>
 ⚡ 진행도: 약 30% (화면 뼈대만 구현 완료, 기능 일부만 구현) <br/>
   <p align="center" style="font-size:18px; line-height:1.6;">
-  <a href="https://yoonjin.onrender.com/" target="_blank" style="text-decoration:none; color:#1E90FF; font-weight:600; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    배포사이트 ➤ Click Me!
-  </a>
     <a href="https://yoonjin-front.onrender.com/" target="_blank" style="text-decoration:none; color:#1E90FF; font-weight:600; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
     미니채팅룸 ➤ Click Me!
   </a>
